@@ -2,7 +2,43 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.btn {
+    background-color: rgb(68, 68, 68);
+}
+
+.left {
+    text-align: center;
+    float: left;
+}
+.contact {
+    text-align: center;
+}
+
+.contactimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
-    font-size: 10px;
+    position: relative;
+    font-size: 7px;
     color: black;
+}
+
+.attributions {
+    position: absolute;
+    top: 100px;
 }
