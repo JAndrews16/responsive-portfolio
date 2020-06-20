@@ -16,6 +16,12 @@ h1 {
 
 .btn {
     background-color: rgb(68, 68, 68);
+    border-color: black;
+}
+
+.btn:hover {
+    background-color: grey;
+    border-color: rgb(68, 68, 68);
 }
 
 .left {
