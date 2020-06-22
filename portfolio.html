@@ -3,7 +3,7 @@
   <head>
     <!--Link to Bootstrap, Google fonts, and CSS File-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assets/style.css" type="text/css">
     
     <!--Tab Title and Icon-->
@@ -11,6 +11,8 @@
     <link rel="icon" href="Assets/Images/leaf.png" type="image/png">
   </head>
   <body>
+    
+    <!--Nav Bar linking to internal pages-->
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <a class="navbar-brand" href="./index.html">Juliana Andrews</a>
@@ -32,35 +34,56 @@
             </div>
           </nav>
       </header>
+      
+      <!--Projects as cards, stacked vertically on smaller screens, horizontally on larger screens-->
       <main>
-          <h1>Projects</h1>
           <div class="container">
-          <div class="card left" style="width: 18rem;">
-            <img src="./Assets/Images/Horiseon.PNG" class="card-img-top" alt="Horiseon Logo">
-            <div class="card-body">
-              <h5 class="card-title">Code Refactor</h5>
-              <p class="card-text">Provided standardization of website files for Horiseon.</p>
-              <a href="https://jandrews16.github.io/code-refactor/" target="_blank" class="btn btn-primary">Check it out</a>
+            <!--title-->
+            <div class="row">
+              <div class="title-projects col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1>Projects</h1>
+              </div>
             </div>
-          </div>
-          <div class="card left" style="width: 18rem;">
-            <img src="./Assets/Images/Rezz.jpg" class="card-img-top" alt="DJ Rezz Performing Live">
-            <div class="card-body">
-              <h5 class="card-title">Rezz Fan Page</h5>
-              <p class="card-text">My first project using only HTML and CSS.</p>
-              <a href="https://jandrews16.github.io/Rezz-Fanpage/" target="_blank" class="btn btn-primary">Check it out</a>
+
+            <!--Project cards-->
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card left" style="width: 18rem;">
+                  <img src="./Assets/Images/Horiseon.PNG" class="card-img-top" alt="Horiseon Logo">
+                  <div class="card-body">
+                    <h5 class="card-title">Code Refactor</h5>
+                    <p class="card-text">Provided standardization of website files for Horiseon.</p>
+                    <a href="https://jandrews16.github.io/code-refactor/" target="_blank" class="btn btn-primary">Check it out</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card left" style="width: 18rem;">
+                  <img src="./Assets/Images/Rezz.jpg" class="card-img-top" alt="DJ Rezz Performing Live">
+                  <div class="card-body">
+                    <h5 class="card-title">Rezz Fan Page</h5>
+                    <p class="card-text">My first project using only HTML and CSS.</p>
+                    <a href="https://jandrews16.github.io/Rezz-Fanpage/" target="_blank" class="btn btn-primary">Check it out</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card left" style="width: 18rem;">
+                  <img src="./Assets/Images/Placeholder.png" class="card-img-top" alt="Image Coming Soon">
+                  <div class="card-body">
+                    <h5 class="card-title">Project Pending</h5>
+                    <p class="card-text">Check back frequently for updates!</p>
+                    <a href="#" target="_blank" class="btn btn-primary">Check it out</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card left" style="width: 18rem;">
-            <img src="./Assets/Images/Placeholder.png" class="card-img-top" alt="Image Coming Soon">
-            <div class="card-body">
-              <h5 class="card-title">Project Pending</h5>
-              <p class="card-text">Check back frequently for updates!</p>
-              <a href="#" target="_blank" class="btn btn-primary">Check it out</a>
-            </div>
-          </div>
           </div>
       </main>
+      
+      <!--Sources cited for Icons-->
       <footer>
         <div class="attributions">Icons made by <a href="https://www.flaticon.com/free-icon/leaf_861054?term=leaf&page=3&position=69" title="Good Ware">Good Ware</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </footer>

@@ -1,22 +1,84 @@
 * {
+    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("./Images/geometric.jpg");
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
 }
 
 main {
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
+ul {
+    list-style-type: square;
+    text-align: left;
 }
 
 .container {
     position: relative;
 }
 
+#bio {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0%;
+}
+
+.bio-img {
+    height: 240px;
+    width: 180px;
+    float: left;
+    border-radius: 8px;
+    margin: 20px;
+    border: 2px solid rgba(121, 103, 0, 0.404);
+}
+
+.bio-skills {
+    float: left;
+    padding: 10px;
+    border: 15px;
+}
+
+.bio-info {
+    text-align: left;
+    margin-left: 0%;
+    background-color: rgb(233, 233, 227);
+    border: 1px solid rgba(83, 71, 0, 0.404);
+    padding: 5px;
+    margin: 5px;
+}
+
+.bio-skills li {
+    padding: 8px;
+}
+
+.card {
+    padding: 7px;
+    border-color: rgb(163, 163, 163);
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+    width: 250px;
+}
+
 .btn {
     background-color: rgb(68, 68, 68);
-    border-color: black;
+    border-color: rgb(20, 20, 20);
 }
 
 .btn:hover {
@@ -30,6 +92,10 @@ h1 {
 }
 .contact {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 .contactimg {
