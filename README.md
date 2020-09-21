@@ -10,6 +10,8 @@ Includes profile picture, list of skills, and short paragraph about myself.
 
 # Portfolio
 
+Portfolio Link: https://jandrews16.github.io/responsive-portfolio/
+
 This page has 3 cards that link to my projects. 
 The first card links to my most recent project for standarizing a code.
 The second card links to my Rezz Fan Page that was part of the pre-work for the bootcamp I am currently enrolled in. 
