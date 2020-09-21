@@ -1,10 +1,11 @@
 * {
-    /*font-family: 'Montserrat', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-image: url("./Images/geometric.jpg");
+    background-image: url("./Images/wood.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 h1 {
@@ -32,31 +33,51 @@ ul {
 }
 
 .bio-img {
-    height: 240px;
-    width: 180px;
-    float: left;
+    height: 340px;
+    width: 280px;
+    /*float: left;*/
     border-radius: 8px;
     margin: 20px;
     border: 2px solid rgba(121, 103, 0, 0.404);
 }
 
 .bio-skills {
-    float: left;
+    /*float: left;*/
     padding: 10px;
     border: 15px;
 }
 
 .bio-info {
-    text-align: left;
-    margin-left: 0%;
-    background-color: rgb(233, 233, 227);
-    border: 1px solid rgba(83, 71, 0, 0.404);
-    padding: 5px;
+    /*text-align: left;
+    margin-left: 0%;*/
+    background-color: rgb(49, 49, 49);
+    color: beige;
+    border: 1px solid rgba(122, 106, 11, 0.404);
+    padding: 15px;
     margin: 5px;
+}
+
+.bio-skills {
+    background-color: rgb(49, 49, 49);
+    color: beige;
+    width: 30%;
 }
 
 .bio-skills li {
     padding: 8px;
+}
+
+.title-projects {
+    background-color: rgb(49, 49, 49);
+    opacity: 0.85;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#projects-title {
+    padding: 18px;
+    font-size: 50px;
+    color: beige;
 }
 
 .card {
@@ -74,6 +95,18 @@ ul {
     margin-right: auto;
     height: 110px;
     width: 250px;
+}
+
+.rowone {
+    margin-left: 25px;
+    margin-right:25px;
+    margin-top: 25px;
+}
+
+.rowtwo {
+    margin-left: 30px;
+    margin-right:30px;
+    margin-top: 25px;
 }
 
 .btn {
@@ -96,12 +129,35 @@ ul {
     margin-right: auto;
     width: 50%;
     padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(49, 49, 49);
+    opacity: 0.85;
+    color: beige;
+}
+
+.social-media {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(49, 49, 49);
+    opacity: 0.85;
+    color: beige;
 }
 
 .contactimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#contactSub {
+    font-size: 36px;
+    opacity: 0.85;
 }
 
 footer {
@@ -113,4 +169,12 @@ footer {
 .attributions {
     position: absolute;
     margin-top: 20%;
+}
+
+#red {
+    color: rgb(255, 58, 58);
+}
+
+.social-media-links {
+    padding: 5px;
 }
